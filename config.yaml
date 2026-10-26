@@ -1,0 +1,215 @@
+# ===== 기본 설정 =====
+max_item_messages: 8      # 하루에 공고별 카톡으로 보낼 최대 개수 (나머지는 요약 페이지에서 확인)
+send_when_empty: true     # 새 공고가 0건이어도 매일 요약 메시지 보내기
+
+# GitHub Pages 요약 페이지 주소 (README 참고해서 본인 것으로 수정)
+digest_url: "https://YOUR_GITHUB_ID.github.io/postdoc-alert/"
+
+# Kakao Developers [앱] > [제품 링크 관리] > 웹 도메인에 등록한 도메인.
+# 여기 있는 도메인의 공고는 카톡 버튼이 원문으로 바로 연결되고,
+# 없는 도메인(예: Adzuna)은 요약 페이지로 연결됩니다.
+kakao_registered_domains:
+  - github.io
+  - academicpositions.com
+  - scholarshipdb.net
+  - euraxess.ec.europa.eu
+  - jobs.ac.uk
+  - humboldt-foundation.de
+  - ec.europa.eu
+  - careers-americas.hyundai.com
+  - jobs.smartrecruiters.com
+
+# 제목에 이 단어가 있으면 제외 (대소문자 무시)
+exclude_title_keywords:
+  - "phd student"
+  - "phd position"
+  - "phd candidate"
+  - "doctoral candidate"
+  - "doctoral student"
+  - "master"
+  - "bachelor"
+  - "internship"
+  - "intern "
+  - "working student"
+  - "werkstudent"
+  - "praktik"
+  - "thesis"
+  - "abschlussarbeit"
+
+# ===== 학계 공고 (사이트 검색 결과 페이지 수집) =====
+# link_pattern: 검색 결과에서 '공고 상세 링크'를 골라내는 정규식.
+# 사이트 구조가 바뀌어 0건이 나오면 이 값만 고치면 됩니다.
+html_sources:
+  - name: AcademicPositions
+    category: academic
+    region: EU
+    url: "https://academicpositions.com/find-jobs?search=thermal%20management"
+    link_pattern: "/ad/"
+  - name: ScholarshipDB
+    category: academic
+    region: EU
+    url: "https://scholarshipdb.net/scholarships?q=thermal+management+postdoc"
+    link_pattern: "/scholarships-in-[^/]+/.+"
+  - name: EURAXESS
+    category: academic
+    region: EU
+    url: "https://euraxess.ec.europa.eu/jobs/search?keywords=thermal%20management"
+    link_pattern: "^/jobs/\\d+"
+  - name: jobs.ac.uk
+    category: academic
+    region: UK
+    url: "https://www.jobs.ac.uk/search/?keywords=thermal+management"
+    link_pattern: "^/job/[A-Z0-9]+/"
+
+  # --- 경로 2: 산학 포닥 (industrial postdoc) ---
+  # 분야 구분 없이 검색되므로 require_any로 관련 단어가 제목에 있는 것만 남김
+  - name: EURAXESS 산학포닥
+    category: academic
+    region: EU
+    tag: "산학 포닥"
+    url: "https://euraxess.ec.europa.eu/jobs/search?keywords=industrial%20postdoc"
+    link_pattern: "^/jobs/\\d+"
+    require_any: ["thermal", "vehicle", "automotive", "battery", "heat", "hvac", "energy system"]
+  - name: AcademicPositions 산학포닥
+    category: academic
+    region: EU
+    tag: "산학 포닥"
+    url: "https://academicpositions.com/find-jobs?search=industrial%20postdoc"
+    link_pattern: "/ad/"
+    require_any: ["thermal", "vehicle", "automotive", "battery", "heat", "hvac", "energy system"]
+
+  # --- 경로 3: MSCA 펠로십 후보를 찾는 호스트(대학·기업) 공고 ---
+  - name: EURAXESS MSCA호스트
+    category: academic
+    region: EU
+    tag: "MSCA 호스트"
+    url: "https://euraxess.ec.europa.eu/jobs/search?keywords=MSCA%20postdoctoral%20fellowship"
+    link_pattern: "^/jobs/\\d+"
+    require_any: ["thermal", "vehicle", "automotive", "battery", "heat", "hvac", "mobility", "energy"]
+
+  # --- 현대차 미국 기술연구소 (HATCI) ---
+  - name: HATCI
+    category: industry
+    region: US
+    org: "Hyundai America Technical Center"
+    tag: "현대차 HATCI"
+    url: "https://careers-americas.hyundai.com/hatci/search/?q=thermal"
+    link_pattern: "/hatci/job/"
+
+# ===== 경로 1: 기업 연구소 공식 채용 API =====
+smartrecruiters_sources:
+  - name: Bosch
+    company_id: BoschGroup
+    org: "Bosch"
+    category: industry
+    tag: "Bosch"
+    queries: ["thermal management", "heat pump", "thermal system", "battery thermal"]
+    countries: [de, us, gb, fr, nl, se, at, ch, it, es, hu, cz, pl]
+
+# ===== 산업체 + 미국 공고 (Adzuna 공식 API) =====
+adzuna:
+  enabled: true
+  max_days_old: 3
+  countries: [us, gb, de, fr, nl, at, it, es]
+  queries:
+    - category: industry
+      what_phrase: "thermal management"
+      what_or: "vehicle EV battery automotive powertrain"
+    - category: industry
+      what_phrase: "heat pump"
+      what_or: "vehicle EV automotive"
+    # 기업 연구소는 'postdoc' 대신 Researcher / Research Engineer 직함을 씀
+    - category: industry
+      what_or: "researcher scientist"
+      what_and: "thermal vehicle"
+    # 현대차 유럽 기술연구소(HMETC)는 자체 채용 사이트 대신 독일 구인 사이트에 올라옴
+    - category: industry
+      tag: "현대차 HMETC"
+      what_phrase: "Hyundai Motor Europe Technical Center"
+      countries: [de]
+    - category: academic
+      tag: "산학 포닥"
+      what_phrase: "industrial postdoc"
+    - category: academic
+      what: "postdoctoral"
+      what_or: "thermal battery vehicle heat"
+  # 회사명에 이 문자열이 있으면 '국립연구소'로 분류
+  national_labs:
+    - "national renewable energy"
+    - "nrel"
+    - "oak ridge"
+    - "argonne"
+    - "sandia"
+    - "pacific northwest"
+    - "idaho national"
+    - "lawrence berkeley"
+    - "lawrence livermore"
+    - "brookhaven"
+    - "los alamos"
+
+# 회사명에 이 문자열이 있으면 ★ 표시 + 맨 앞 정렬 (완성차·주요 열관리 부품사)
+priority_companies:
+  - "general motors"
+  - "ford"
+  - "stellantis"
+  - "tesla"
+  - "rivian"
+  - "lucid"
+  - "hyundai"
+  - "kia"
+  - "toyota"
+  - "honda"
+  - "volkswagen"
+  - "porsche"
+  - "audi"
+  - "bmw"
+  - "mercedes"
+  - "volvo"
+  - "renault"
+  - "bosch"
+  - "mahle"
+  - "valeo"
+  - "hanon"
+  - "denso"
+  - "modine"
+
+# 제목에 이 단어가 있어도 ★ 표시 + 맨 앞 정렬
+priority_title_keywords:
+  - "industrial postdoc"
+  - "industrial post-doc"
+  - "industry postdoc"
+  - "thermal management"
+
+# 공고 본문에 이 문구가 있으면 비자 제한 경고 (대소문자 무시)
+visa_red_flags:
+  - "u.s. citizen"
+  - "us citizen"
+  - "citizenship is required"
+  - "citizenship required"
+  - "security clearance"
+  - "no visa sponsorship"
+  - "not sponsor"
+  - "unable to sponsor"
+  - "permanent resident"
+  - "green card"
+
+# ===== 훔볼트 연구 펠로십 =====
+humboldt:
+  url: "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship"
+  closed_marker: "Maximum number of applications received"
+  open_dates: ["03-15", "07-15", "11-15"]
+  remind_days_before: 7
+
+# ===== 날짜가 정해진 펠로십 리마인더 =====
+# offsets: 기준일로부터 며칠 전에 알릴지 (0 = 당일)
+deadline_reminders:
+  - name: "MSCA 포닥 펠로십 2027"
+    url: "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01"
+    note: "European Fellowship 대상, 기업도 호스트 가능. 마감일 기준 박사 학위 필요. 날짜는 예정치라 공고 확정 시 확인."
+    events:
+      - label: "오픈"
+        date: "2027-04-07"
+        offsets: [30, 0]
+      - label: "마감 (브뤼셀 17:00)"
+        date: "2027-09-08"
+        offsets: [30]
