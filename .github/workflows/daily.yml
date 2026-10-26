@@ -1,0 +1,48 @@
+name: daily-alert
+
+on:
+  schedule:
+    - cron: "0 23 * * *"   # 매일 08:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: 공고 수집 및 카톡 전송
+        env:
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python main.py
+
+      - name: 새 refresh token이 있으면 Secret 갱신
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -f .new_refresh_token ]; then
+            gh secret set KAKAO_REFRESH_TOKEN < .new_refresh_token
+            rm .new_refresh_token
+          fi
+
+      - name: 상태와 요약 페이지 커밋
+        if: always()
+        run: |
+          git config user.name "alert-bot"
+          git config user.email "alert-bot@users.noreply.github.com"
+          mkdir -p state docs
+          git add state docs
+          git diff --cached --quiet || git commit -m "daily update $(date -u +%F)"
+          git push
