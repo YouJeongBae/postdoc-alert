@@ -108,7 +108,7 @@ smartrecruiters_sources:
 
 # ===== 산업체 + 미국 공고 (Adzuna 공식 API) =====
 adzuna:
-  enabled: true
+  enabled: false
   max_days_old: 3
   countries: [us, gb, de, fr, nl, at, it, es]
   queries:
