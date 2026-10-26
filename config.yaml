@@ -3,7 +3,7 @@ max_item_messages: 8      # 하루에 공고별 카톡으로 보낼 최대 개�
 send_when_empty: true     # 새 공고가 0건이어도 매일 요약 메시지 보내기
 
 # GitHub Pages 요약 페이지 주소 (README 참고해서 본인 것으로 수정)
-digest_url: "https://YOUR_GITHUB_ID.github.io/postdoc-alert/"
+digest_url: "https://YouJeongBae.github.io/postdoc-alert/"
 
 # Kakao Developers [앱] > [제품 링크 관리] > 웹 도메인에 등록한 도메인.
 # 여기 있는 도메인의 공고는 카톡 버튼이 원문으로 바로 연결되고,
