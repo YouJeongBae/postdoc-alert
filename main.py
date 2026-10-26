@@ -368,7 +368,7 @@ def main(dry_run=False):
     # 상태·요약 페이지 저장
     history = [h for h in state.get("history", []) if h["date"] != str(today)]
     slim = [{k: v for k, v in i.items() if k != "text"} for i in new_items]
-    history.insert(0, {"date": str(today), "items": [] if first_run else slim})
+        history.insert(0, {"date": str(today), "items": slim})
     history = history[:HISTORY_DAYS]
     state["history"] = history
     state["seen"] = (state.get("seen", []) + sorted(ids))[-5000:]
