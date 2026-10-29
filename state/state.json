@@ -2,6 +2,179 @@
  "humboldt_status": "closed",
  "history": [
   {
+   "date": "2026-10-29",
+   "items": [
+    {
+     "id": "sr-744000158395439",
+     "title": "Customer Service Representative (5:00 am - 1:30 pm)",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158395439",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "US",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "⚠️ 비자 스폰서 여부 확인 필요",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158371579",
+     "title": "Associate/Envir. Health & Safety Engineer",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158371579",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "US",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "⚠️ 비자 스폰서 여부 확인 필요",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158308459",
+     "title": "ETAS Agile Product Delivery Intern",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158308459",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "GB",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158306719",
+     "title": "Demand and supply planner F/M",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158306719",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "PL",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158261354",
+     "title": "PhD - Development of a Novel Lab-on-a-Chip Component for the Analysis and Sorting of Single Cells",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158261354",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "DE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158216490",
+     "title": "HR Trainee in Organizational Management",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158216490",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "HU",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158278419",
+     "title": "Software Developer - Control Systems & Heat Pumps",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158278419",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "SE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158263019",
+     "title": "PhD - A Generator of Optimized Winding Schemes in Electrical Machines",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158263019",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "DE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158262769",
+     "title": "Promotion - Effiziente Neuronale Repräsentation von Datensätzen",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158262769",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "DE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158262589",
+     "title": "PhD - Lab on Chip Sample Preparation for Next-Generation Molecular Diagnostics",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158262589",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "DE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158262002",
+     "title": "PhD - Safety Contracts for Physical AI",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158262002",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "DE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158262188",
+     "title": "Promotion – Entwicklung einer neuartigen Lab-on-a-Chip-Komponente zur Analyse und Sortierung einzelner Zellen",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158262188",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "DE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158261640",
+     "title": "Promotion - Physikalisches Verständnis von Designelementen in SiC Power MOSFETs",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158261640",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "DE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "sr-744000158257759",
+     "title": "Technologie-Forschungsingenieur für Leistungshalbleiter (w/m/div.)",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158257759",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "DE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    }
+   ]
+  },
+  {
    "date": "2026-10-28",
    "items": [
     {
@@ -496,6 +669,20 @@
   "sr-744000158117769",
   "sr-744000158118604",
   "sr-744000158143959",
-  "sr-744000158172949"
+  "sr-744000158172949",
+  "sr-744000158216490",
+  "sr-744000158257759",
+  "sr-744000158261354",
+  "sr-744000158261640",
+  "sr-744000158262002",
+  "sr-744000158262188",
+  "sr-744000158262589",
+  "sr-744000158262769",
+  "sr-744000158263019",
+  "sr-744000158278419",
+  "sr-744000158306719",
+  "sr-744000158308459",
+  "sr-744000158371579",
+  "sr-744000158395439"
  ]
 }
