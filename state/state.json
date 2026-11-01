@@ -2,6 +2,107 @@
  "humboldt_status": "closed",
  "history": [
   {
+   "date": "2026-11-01",
+   "items": [
+    {
+     "id": "548132cf6bae",
+     "title": "Assistant Professor in Biochemistry with specialisation in Experimental Protein Biochemistry (SciLifeLab Fellow)",
+     "url": "https://euraxess.ec.europa.eu/jobs/476688",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "ed5fe6f23fed",
+     "title": "Postdoctoral position in computational modeling and simulation of spreading processes in population-scale multilayer social networks",
+     "url": "https://euraxess.ec.europa.eu/jobs/476689",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "d99d3ef42fea",
+     "title": "Researcher Entomology Fruit",
+     "url": "https://euraxess.ec.europa.eu/jobs/476690",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "422c9f0a879d",
+     "title": "Postdoc Fellowships European Synthetic Cell Initiative (SynCell-nExUs programme)",
+     "url": "https://euraxess.ec.europa.eu/jobs/476691",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "f9a787d090d1",
+     "title": "Postdoc in Multi-user Multi-access Optical Satellite Communications: Theory and Architectures (MOSC)",
+     "url": "https://euraxess.ec.europa.eu/jobs/476693",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "32536e3250d0",
+     "title": "Postdoc In Optimization-Driven Verification and Validation of Precision Machines",
+     "url": "https://euraxess.ec.europa.eu/jobs/476694",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "eb3467b4a4a4",
+     "title": "Postdoctoral Researcher in Pharmacometrics",
+     "url": "https://euraxess.ec.europa.eu/jobs/476695",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "ca47c738f086",
+     "title": "Research Assistant in Psychoneuroimmunology",
+     "url": "https://euraxess.ec.europa.eu/jobs/476696",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    }
+   ]
+  },
+  {
    "date": "2026-10-31",
    "items": [
     {
@@ -1395,6 +1496,14 @@
   "sr-744000158833829",
   "sr-744000158834167",
   "sr-744000158840009",
-  "sr-744000158840349"
+  "sr-744000158840349",
+  "32536e3250d0",
+  "422c9f0a879d",
+  "548132cf6bae",
+  "ca47c738f086",
+  "d99d3ef42fea",
+  "eb3467b4a4a4",
+  "ed5fe6f23fed",
+  "f9a787d090d1"
  ]
 }
