@@ -2,6 +2,107 @@
  "humboldt_status": "closed",
  "history": [
   {
+   "date": "2026-11-02",
+   "items": [
+    {
+     "id": "19a70086b50d",
+     "title": "PhD in Bioreactor-based preservation of human heart valves",
+     "url": "https://euraxess.ec.europa.eu/jobs/476781",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "e4a0e85b8e30",
+     "title": "Lecturer Data Science",
+     "url": "https://euraxess.ec.europa.eu/jobs/476782",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "464097bff525",
+     "title": "Postdoctoral Researcher in Experimental Memory for Circular Battery Materials",
+     "url": "https://euraxess.ec.europa.eu/jobs/476783",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "e20bc721ad5f",
+     "title": "Senior lecturer in business administration with a specialisation in accounting",
+     "url": "https://euraxess.ec.europa.eu/jobs/476784",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "0e26c24822d1",
+     "title": "Assistant, Associate and Full Professors in Multiple Disciplines (Yushan Young Fellow)",
+     "url": "https://euraxess.ec.europa.eu/jobs/476785",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "8872939a670d",
+     "title": "Full Professor in Multiple Disciplines (Yushan Fellow)",
+     "url": "https://euraxess.ec.europa.eu/jobs/476786",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "2e0f511bc9fe",
+     "title": "Postdoc in comparative literature",
+     "url": "https://euraxess.ec.europa.eu/jobs/476787",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "c6da9a0c15fa",
+     "title": "Staff scientist to BioMS",
+     "url": "https://euraxess.ec.europa.eu/jobs/476788",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    }
+   ]
+  },
+  {
    "date": "2026-11-01",
    "items": [
     {
@@ -1504,6 +1605,14 @@
   "d99d3ef42fea",
   "eb3467b4a4a4",
   "ed5fe6f23fed",
-  "f9a787d090d1"
+  "f9a787d090d1",
+  "0e26c24822d1",
+  "19a70086b50d",
+  "2e0f511bc9fe",
+  "464097bff525",
+  "8872939a670d",
+  "c6da9a0c15fa",
+  "e20bc721ad5f",
+  "e4a0e85b8e30"
  ]
 }
