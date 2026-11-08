@@ -2,6 +2,143 @@
  "humboldt_status": "closed",
  "history": [
   {
+   "date": "2026-11-08",
+   "items": [
+    {
+     "id": "sr-744000160437899",
+     "title": "Executive Assistant | Bosch Building Technologies",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160437899",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "NL",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "e800cdf9f789",
+     "title": "Post-doctoral Fellow in the Department of Sociology",
+     "url": "https://euraxess.ec.europa.eu/jobs/478681",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "b69b94325e48",
+     "title": "Head of School (Associate Professor/Professor) - Electronics and Computer Science",
+     "url": "https://euraxess.ec.europa.eu/jobs/478682",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "4421ca2573a6",
+     "title": "Professor/Associate Professor – Electronics and Computer Science",
+     "url": "https://euraxess.ec.europa.eu/jobs/478683",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "b34e11324cfe",
+     "title": "Professor/Associate Professor in Business Analytics",
+     "url": "https://euraxess.ec.europa.eu/jobs/478684",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "6e2ba03e86ec",
+     "title": "Professor/Associate Professor in Economics",
+     "url": "https://euraxess.ec.europa.eu/jobs/478685",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "36eda094048f",
+     "title": "Research Fellow in Genetic Epidemiology and Data Science",
+     "url": "https://euraxess.ec.europa.eu/jobs/478686",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "d9dad6e44d2c",
+     "title": "Professor and Head of Department of Civil Engineering",
+     "url": "https://euraxess.ec.europa.eu/jobs/478687",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "47c0ff66116c",
+     "title": "Professor and Head of Department of Mechanical Engineering",
+     "url": "https://euraxess.ec.europa.eu/jobs/478688",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "50faf750dc12",
+     "title": "Lecturer in Sport Management and Communication",
+     "url": "https://euraxess.ec.europa.eu/jobs/478689",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "ca0bf6c9bf91",
+     "title": "Assistant / Associate Professor, Veterinary Pharmacology",
+     "url": "https://euraxess.ec.europa.eu/jobs/478690",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    }
+   ]
+  },
+  {
    "date": "2026-11-07",
    "items": [
     {
@@ -3705,6 +3842,17 @@
   "sr-744000160309940",
   "sr-744000160311555",
   "sr-744000160311749",
-  "sr-744000160312009"
+  "sr-744000160312009",
+  "36eda094048f",
+  "4421ca2573a6",
+  "47c0ff66116c",
+  "50faf750dc12",
+  "6e2ba03e86ec",
+  "b34e11324cfe",
+  "b69b94325e48",
+  "ca0bf6c9bf91",
+  "d9dad6e44d2c",
+  "e800cdf9f789",
+  "sr-744000160437899"
  ]
 }
