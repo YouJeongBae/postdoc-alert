@@ -2,6 +2,131 @@
  "humboldt_status": "closed",
  "history": [
   {
+   "date": "2026-11-09",
+   "items": [
+    {
+     "id": "sr-744000160484449",
+     "title": "Servie Sales Manager",
+     "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160484449",
+     "source": "Bosch",
+     "category": "industry",
+     "region": "SE",
+     "org": "Bosch",
+     "tag": "Bosch",
+     "visa": "",
+     "priority": true
+    },
+    {
+     "id": "2430b0d8da05",
+     "title": "PhD on worker-augmenting technology implementation",
+     "url": "https://euraxess.ec.europa.eu/jobs/478773",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "d0334175ac55",
+     "title": "Postdoc In magneto-photonic integration for ultrafast memory and computing",
+     "url": "https://euraxess.ec.europa.eu/jobs/478774",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "ab9e6b63532a",
+     "title": "PhD in Free-Space Optical and Radio Communications for Tropospheric Future Networks (ANCHOR)",
+     "url": "https://euraxess.ec.europa.eu/jobs/478775",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "e2fac6a00524",
+     "title": "Research Assistant in single cell method development and immune regulation",
+     "url": "https://euraxess.ec.europa.eu/jobs/478776",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "ff3c87570437",
+     "title": "Postdoc position in Quantum Software and Quantum Communication (DEIS)",
+     "url": "https://euraxess.ec.europa.eu/jobs/478777",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "18d80dcc6a46",
+     "title": "Postdoctoral scholarship (2 years) on human-agent collaboration for promoting health among older adults",
+     "url": "https://euraxess.ec.europa.eu/jobs/478778",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "cec195810aed",
+     "title": "Postdoctoral scholarship (2 years) within Discrete Mathematics",
+     "url": "https://euraxess.ec.europa.eu/jobs/478779",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "967c2ff9a264",
+     "title": "Postdoctoral researcher in Rheumatology",
+     "url": "https://euraxess.ec.europa.eu/jobs/478780",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "7ca0441aaf0a",
+     "title": "Laboratory Research Assistant in Experimental Neuroscience",
+     "url": "https://euraxess.ec.europa.eu/jobs/478782",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    }
+   ]
+  },
+  {
    "date": "2026-11-08",
    "items": [
     {
@@ -3449,10 +3574,6 @@
      "priority": true
     }
    ]
-  },
-  {
-   "date": "2026-10-26",
-   "items": []
   }
  ],
  "seen": [
@@ -3853,6 +3974,16 @@
   "ca0bf6c9bf91",
   "d9dad6e44d2c",
   "e800cdf9f789",
-  "sr-744000160437899"
+  "sr-744000160437899",
+  "18d80dcc6a46",
+  "2430b0d8da05",
+  "7ca0441aaf0a",
+  "967c2ff9a264",
+  "ab9e6b63532a",
+  "cec195810aed",
+  "d0334175ac55",
+  "e2fac6a00524",
+  "ff3c87570437",
+  "sr-744000160484449"
  ]
 }
