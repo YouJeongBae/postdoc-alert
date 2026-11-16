@@ -2,6 +2,95 @@
  "humboldt_status": "open",
  "history": [
   {
+   "date": "2026-11-16",
+   "items": [
+    {
+     "id": "321a0a8e2abf",
+     "title": "Postdoctoral Researcher in Molecular Aging and Somatic Mutations",
+     "url": "https://euraxess.ec.europa.eu/jobs/480571",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "fba92a31a7f7",
+     "title": "PhD researcher - Dynamic Safety Assurance for Autonomous Outdoor Operation",
+     "url": "https://euraxess.ec.europa.eu/jobs/480572",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "d2519c14c177",
+     "title": "Grant Writer (f/m/x) in Bioengineering",
+     "url": "https://euraxess.ec.europa.eu/jobs/480573",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "3037dc2f7ce4",
+     "title": "PhD in modelling and experiments on PEM electrolysis",
+     "url": "https://euraxess.ec.europa.eu/jobs/480575",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "cc02c1e407fb",
+     "title": "Associate researcher in Experimental lung transplantation",
+     "url": "https://euraxess.ec.europa.eu/jobs/480576",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "275a0c2b9591",
+     "title": "Ph.D. Student in the Chemical Ecology of Plant-Pollinator Interactions (M/F)",
+     "url": "https://euraxess.ec.europa.eu/jobs/480578",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    },
+    {
+     "id": "55afece591a8",
+     "title": "Doctoral (PhD) position in Human Evolution and Developmental Gene Regulation",
+     "url": "https://euraxess.ec.europa.eu/jobs/480579",
+     "source": "EURAXESS",
+     "category": "academic",
+     "region": "EU",
+     "org": "",
+     "tag": "",
+     "visa": "",
+     "priority": false
+    }
+   ]
+  },
+  {
    "date": "2026-11-15",
    "items": [
     {
@@ -4673,107 +4762,6 @@
      "priority": false
     }
    ]
-  },
-  {
-   "date": "2026-11-02",
-   "items": [
-    {
-     "id": "19a70086b50d",
-     "title": "PhD in Bioreactor-based preservation of human heart valves",
-     "url": "https://euraxess.ec.europa.eu/jobs/476781",
-     "source": "EURAXESS",
-     "category": "academic",
-     "region": "EU",
-     "org": "",
-     "tag": "",
-     "visa": "",
-     "priority": false
-    },
-    {
-     "id": "e4a0e85b8e30",
-     "title": "Lecturer Data Science",
-     "url": "https://euraxess.ec.europa.eu/jobs/476782",
-     "source": "EURAXESS",
-     "category": "academic",
-     "region": "EU",
-     "org": "",
-     "tag": "",
-     "visa": "",
-     "priority": false
-    },
-    {
-     "id": "464097bff525",
-     "title": "Postdoctoral Researcher in Experimental Memory for Circular Battery Materials",
-     "url": "https://euraxess.ec.europa.eu/jobs/476783",
-     "source": "EURAXESS",
-     "category": "academic",
-     "region": "EU",
-     "org": "",
-     "tag": "",
-     "visa": "",
-     "priority": false
-    },
-    {
-     "id": "e20bc721ad5f",
-     "title": "Senior lecturer in business administration with a specialisation in accounting",
-     "url": "https://euraxess.ec.europa.eu/jobs/476784",
-     "source": "EURAXESS",
-     "category": "academic",
-     "region": "EU",
-     "org": "",
-     "tag": "",
-     "visa": "",
-     "priority": false
-    },
-    {
-     "id": "0e26c24822d1",
-     "title": "Assistant, Associate and Full Professors in Multiple Disciplines (Yushan Young Fellow)",
-     "url": "https://euraxess.ec.europa.eu/jobs/476785",
-     "source": "EURAXESS",
-     "category": "academic",
-     "region": "EU",
-     "org": "",
-     "tag": "",
-     "visa": "",
-     "priority": false
-    },
-    {
-     "id": "8872939a670d",
-     "title": "Full Professor in Multiple Disciplines (Yushan Fellow)",
-     "url": "https://euraxess.ec.europa.eu/jobs/476786",
-     "source": "EURAXESS",
-     "category": "academic",
-     "region": "EU",
-     "org": "",
-     "tag": "",
-     "visa": "",
-     "priority": false
-    },
-    {
-     "id": "2e0f511bc9fe",
-     "title": "Postdoc in comparative literature",
-     "url": "https://euraxess.ec.europa.eu/jobs/476787",
-     "source": "EURAXESS",
-     "category": "academic",
-     "region": "EU",
-     "org": "",
-     "tag": "",
-     "visa": "",
-     "priority": false
-    },
-    {
-     "id": "c6da9a0c15fa",
-     "title": "Staff scientist to BioMS",
-     "url": "https://euraxess.ec.europa.eu/jobs/476788",
-     "source": "EURAXESS",
-     "category": "academic",
-     "region": "EU",
-     "org": "",
-     "tag": "",
-     "visa": "",
-     "priority": false
-    }
-   ]
   }
  ],
  "seen": [
@@ -5388,6 +5376,13 @@
   "7802cbb94de9",
   "a04ca2444969",
   "c70280952d26",
-  "f1055f5e5351"
+  "f1055f5e5351",
+  "275a0c2b9591",
+  "3037dc2f7ce4",
+  "321a0a8e2abf",
+  "55afece591a8",
+  "cc02c1e407fb",
+  "d2519c14c177",
+  "fba92a31a7f7"
  ]
 }
